@@ -1,0 +1,14 @@
+body{
+	background-image:url(d1.jpg);
+	background-size:cover;
+	background-position:center;
+}
+.main{
+	font-size:26px;
+	background:rgb(52, 73, 94,0.5);
+	width:40%;
+	margin-left:30%;
+	padding:10px;
+	text-shadow:2px 2px 5px black;
+	color:white;
+}

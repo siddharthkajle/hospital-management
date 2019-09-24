@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="softwarecss.css">
+<title>Online Diagnosis</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="full">
+	<div id="header">
+        <div id="nav">
+        	<ul>
+        	    <li><a href="s2.php">Home</a></li>
+        		<li><a class="active" href="#">Add Test Details</a></li>
+        		<li><a href="appointment1.php">Appointment</a></li>
+        		<li><a href="donate.php">Donate</a></li>
+        		<li><a href="contact.php">Contact</a></li>
+        		
+        		<li><a href="main.php">Logout</a></li>
+        	</ul>
+        </div>
+	</div>
+</div>
+
+<div class="content1">
+	<div class="centerwr">
+		<div class="para">
+		<div class="para1">Online Diagnostic Lab Reporting System</div>
+	    </div>
+	</div>
+</div>
+
+<p class="texto">Add Test Details</p>
+<div class="Registro">
+<form action="test.php" method="post">
+
+<span class="fontawesome-user"></span><input type="text"  name="age" required placeholder="Age of Patient" autocomplete="off" required> 
+<span class="fontawesome-envelope-alt"></span><input type="text" id="email" name="testtype" required placeholder="Test Type" autocomplete="off" required>
+<span class="fontawesome-user"></span><input type="text"  name="value" required placeholder="Value of test" autocomplete="off" required>
+<br><br>
+<span class="fontawesome-user"></span><input type="text"  name="id"  placeholder="ID of Patient" autocomplete="off">
+<p style='color:white;'>or<p>
+<span class="fontawesome-lock"></span><input type="text"  style="background-color: #fff;
+	border-top: 2px solid #2c90c6;
+	border-right: 1px solid #000;
+	border-bottom: 2px solid #2c90c6;
+	border-left: 1px solid #000;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  -ms-border-radius: 0 0 5px 5px;
+	color: #363636;
+	margin-bottom: 20px;
+	padding-left: 36px;
+	width: 204px;" name="email" id="password"  placeholder="Email of Patient" autocomplete="off" > 
+<input type="submit" value="Submit" title="Registra tu cuenta">
+  </form>
+  <script>
+function myFunction() {
+  alert("The form was submitted");
+}
+</script>
+
+</body>
+</html>
+
+ 

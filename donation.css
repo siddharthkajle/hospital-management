@@ -1,0 +1,95 @@
+#{
+margin :0;
+padding :0;
+font-family:Century Gothic;
+}
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(i8.jpg);
+background-size:cover;
+background-position:center;
+}
+ul{
+float:right;
+list-style-type:none;
+margin-top:30px;
+margin-right:26px;
+font-size:24px;
+}
+ul li{
+display:inline-block;
+}
+ul li a{
+text-decoration :none;
+color:#fff;
+padding:10px 20px;
+border:1px solid #fff;
+transition: 0.6s ease;
+}
+ul li a:hover{
+background-color:#fff;
+color:black;
+}
+#d1{
+width:15%;
+height:20%;
+background-color:rgb(241, 196, 15,0.6);
+position:relative;
+border-left:6px solid white;
+border-right:6px solid white;
+float:left;
+}
+h1
+{
+font-family:Chiller;
+border-bottom:20px;
+font-size:65px;
+color:#F7F9F9;
+}
+
+.main{
+max-width:1700px;
+margin:auto;
+}
+ul li.active a{
+background-color:white;
+color:black;
+}
+.title{
+position:absolute;
+top :20%;
+left:60%;
+transform:translate(-50%,-50%);
+}
+.title h2{
+color:white;
+font-size:90px;
+}
+.button{
+position:absolute;
+top :65%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.btn{
+border: 1px solid #fff;
+padding: 15px 35px;
+color: white;
+text-decoration: none;
+transition: 0.6s ease;
+font-size:30px;
+}
+.btn:hover{
+background-color:#fff;
+color:black;
+}
+#b{
+float:bottom;
+margin:25px;
+color:white;
+}
+ul li ul li{
+display:none;
+}
+ul li:hover ul li {
+display:block;
+}
